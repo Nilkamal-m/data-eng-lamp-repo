@@ -27,3 +27,12 @@ The pipeline captures synthetic weather data, streams it into Kafka, processes a
 
 - 🪄 **Airflow Orchestration**  
   Coordinates and schedules each stage of the pipeline to ensure smooth and automated execution.
+
+## 🧰 Tech Stack
+
+- **Apache Kafka** – For real-time data streaming
+- **Apache Spark** – For stream processing and data transformation
+- **Apache Cassandra** – For scalable data storage
+- **Apache Airflow** – For orchestration and automation
+- **Docker** – For containerized deployments
+- **Python (Faker)** – For generating synthetic weather data

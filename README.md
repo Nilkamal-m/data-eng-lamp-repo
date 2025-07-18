@@ -31,7 +31,7 @@ A real-time data streaming pipeline using **Kafka**, **Apache Spark Structured S
 
 ### ➤ Data Generation & Publishing
 
-- `spark_stream.py` DAG generates realistic weather data using `faker` and `numpy`.
+- `weather_data_streaming.py` DAG generates realistic weather data using `faker` and `numpy`.
 - It sends data to Kafka topic `weather_data` at a fixed rate (`records_per_second`).
 
 ### ➤ Data Consumption & Processing
